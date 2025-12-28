@@ -7,7 +7,7 @@ import Contact from '../views/Contact.vue'
 import Education from '../views/Education.vue'
 import edu from '../views/edu.vue'
 import Exp from '../views/Exp.vue'
-import skill from '../views/skills.vue'
+import skill from '../views/Skills.vue'
 const routes = [
   { path: '/', name: 'Home', component: Home },
   { path: '/about', name: 'About', component: About },
