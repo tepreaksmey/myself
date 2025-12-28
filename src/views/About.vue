@@ -45,7 +45,7 @@ AOS.init({
           know me better. I hope you enjoyed reading my blog posts and found
           them useful and informative. If you want to read more of my posts or
           projects, please contact me. If you have feedback or suggestions,
-          please let me know. I'd love to hear from you.
+          please let me know. I'd love to hear from you.Thank you for visit.
         </p>
         <v-btn
           class="mt-4 ml-9"
