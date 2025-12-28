@@ -29,8 +29,8 @@ jobs:
       - name: Sync files to InfinityFree
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{secret.FTP_SERVER}}
-          username: ${{secret.FTP_USERNAME}}
-          password: ${{secret.FTP_PASSWORD}}
+          server: ${{secrets.FTP_SERVER}}
+          username: ${{secrets.FTP_USERNAME}}
+          password: ${{secrets.FTP_PASSWORD}}
           local-dir: ./dist/
           server-dir: ./htdocs/
