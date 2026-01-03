@@ -3,11 +3,13 @@ import { reactive } from "vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+
 AOS.init({
   duration: 1200, // Speed up animations (400ms for faster effect)
   offset: 100, // Trigger animations a bit sooner
   once: true, // Animation occurs only once
 });
+
 const form = reactive({
   name: null,
   phone: null,
@@ -17,6 +19,7 @@ const form = reactive({
 const submit = () => {
   console.log(form);
 };
+
 </script>
 <template>
   <section>
