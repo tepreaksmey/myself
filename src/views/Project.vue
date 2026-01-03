@@ -1,10 +1,8 @@
 <script setup>
-import { onMounted, ref } from "vue";
 import avec from "../assets/avec.png";
 import library from "../assets/library.png";
 import btbcity from "../assets/btbcity.png";
 import cms from "../assets/cms.png";
-const data = ref([]);
 </script>
 <template>
   <section class="team mt-md-12" id="projects">

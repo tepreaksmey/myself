@@ -7,6 +7,7 @@ AOS.init({
   offset: 100, // Trigger animations a bit sooner
   once: true, // Animation occurs only once
 });
+
 </script>
 
 <template>

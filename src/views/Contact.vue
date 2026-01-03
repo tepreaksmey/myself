@@ -3,7 +3,6 @@ import { reactive } from "vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-
 AOS.init({
   duration: 1200, // Speed up animations (400ms for faster effect)
   offset: 100, // Trigger animations a bit sooner
