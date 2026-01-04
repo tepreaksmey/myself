@@ -3,7 +3,6 @@ import { ref, onMounted, onBeforeUnmount } from "vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const menuOpen = ref(false);
 const windowWidth = ref(window.innerWidth);
 
 onMounted(() => {
