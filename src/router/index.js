@@ -26,12 +26,13 @@ const routes = [
         component: skill,
       },
       {
-        path: "/education/edu",
+        path: "/education",
         name:'edu',
         component: edu,
       },
       {
         path : "/education/exp",
+        name:'exp',
         component: Exp
       }
     ],

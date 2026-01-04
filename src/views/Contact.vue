@@ -8,6 +8,7 @@ AOS.init({
   offset: 100, // Trigger animations a bit sooner
   once: true, // Animation occurs only once
 });
+
 const form = reactive({
   name: null,
   phone: null,
@@ -17,6 +18,7 @@ const form = reactive({
 const submit = () => {
   console.log(form);
 };
+
 </script>
 <template>
   <section>
