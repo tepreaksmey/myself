@@ -161,14 +161,17 @@ import router from "@/router";
   .content1,
   .content2,
   .content3 {
-    flex-direction: column; /* Stack content vertically */
-    align-items: flex-start; /* Align items to the left */
+    flex-direction: column;
+    /* Stack content vertically */
+    align-items: flex-start;
+    /* Align items to the left */
     gap: 10px;
     text-align: left;
   }
 
   .stand {
-    left: 100px; /* Adjust position for mobile */
+    left: 100px;
+    /* Adjust position for mobile */
     height: 100%;
   }
 
@@ -179,7 +182,8 @@ import router from "@/router";
 
   .left,
   .right {
-    width: auto; /* Allow text width to be flexible */
+    width: auto;
+    /* Allow text width to be flexible */
     padding-left: 0;
     text-align: left;
   }
