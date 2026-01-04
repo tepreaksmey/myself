@@ -63,7 +63,7 @@ onBeforeUnmount(() => {
         </v-list-item>
         <v-list-item>
           <router-link to="/education" class="menu-link" @click="closeDrawer"
-            >Experience</router-link
+            >Experiences</router-link
           >
         </v-list-item>
         <v-list-item>
